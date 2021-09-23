@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Ronaldo leapfrogs messi in the list of top-earning players",
+      "body": "Manchester United forward Cristiano Ronaldo has reclaimed top spot in the list of the world's highest-paid soccer players from Lionel Messi, according to Forbes.Ronaldo, 36, rejoined United from Juventus in August after 12 years away, while Messi has swapped boyhood club Barcelona to join Paris St Germain.Forbes said Ronaldo, among the world's most popular athletes with over 500 million followers across Facebook, Instagram and Twitter, is set to make $125 million before taxes in the 2021-22 season, with $70 million coming from salary and bonuses at United.The rest will come from endorsements and partnerships with brands including Nike, Herbalife, Clear and his CR7 brand.Messi, who topped last year's list, will be paid a salary of $75 million with an additional $35 million from endorsements for total expected earnings of $110 million.The Argentine's strike partner at PSG Neymar, who in May signed a new contract until 2025, is third on the list with total earnings of $95 million.Another PSG player, Kylian Mbappe ($43 million), is fourth on the Forbes list while Liverpool forward Mohamed Salah ($41 million) is fifth.",
+      "author": "ESPN",
+      "id": 4
+    },
+    {
+      "title": "FDA Clears Covid-19 Boosters From Pfizer for High-Risk People",
+      "body": "The third dose of the vaccine was authorized for people who are 65 years or older or at high risk of severe Covid-19, including from their jobs.",
+      "author": "Ryan Knutson",
+      "id": 5
+    },
+    {
+      "title": "Digital Technology On The Cutting Edge",
+      "body": "Digital technologies such as artificial intelligence, big data and machine learning are increasingly important to the manufacturing industry. Sandvik has partnered with IBM on several digital key projects.",
+      "author": "SandVik",
+      "id": 6
+    },
+    {
+      "title": "Bees kill 60 rare South African penguins in a freak accident",
+      "body": "Dozens of rare penguins have been killed by a swarm of bees in South Africa, in what conservation experts have described as a freak accident.",
+      "author": "Patrick Smith",
+      "id": 7
+    }
+  ]
+}

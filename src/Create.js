@@ -12,7 +12,7 @@ const Create = () => {
     e.preventDefault();
     const blog = { title, body, author }
 
-    setIspending(true)
+    setIspending(true);
 
     fetch('http://localhost:8000/blogs', {   // this is how to make a fetch request from a server ... it is very important charles, use your head o dont be too loose
         method: 'POST',
@@ -26,6 +26,9 @@ const Create = () => {
        // history.go(-1)  ---   // this shows the user plans to go one step backwards and so on and so forth
         history.push('/')  // this is used to redirect the page to the path inputed
        
+    })
+    .catch(err => {
+        console.log(err.message)
     })
 }
 

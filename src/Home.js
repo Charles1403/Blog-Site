@@ -27,7 +27,7 @@ const Home = () => {
             <div className="home">
                 { error && <div> { error }</div>}
                  { isPending && <div><span>Loading...</span></div>}
-               { blogs && <BlogList blogs={blogs}  title="All Blogs"  />}
+               { blogs && <BlogList blogs={blogs}  title=""  />}
               
                {/* the 'blogs &&' is called conditional templating which means that it evaluates the left first and if it returns false it dosent bother to check out the right hand side  */}
                {/* <button onClick={() => setName('charles')}>Change Name</button>  */}

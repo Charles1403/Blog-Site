@@ -9,7 +9,7 @@ return (
             <div className='blog-preview' key={blog.id}>
                 <Link to= {`./blogs/${blog.id}`}>
                 <h2> { blog.title } </h2>
-                <p>  Coached By... { blog.author } </p>
+                <p>   { blog.author } </p>
                 {/* <button onClick={() => handleDelete(blog.id)}>Delete Blog</button> */}
 
                 
