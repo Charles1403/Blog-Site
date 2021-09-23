@@ -28,7 +28,7 @@ const Create = () => {
        
     })
     .catch(err => {
-        console.log(err.message)
+        console.log(err)
     })
 }
 
@@ -51,13 +51,7 @@ const Create = () => {
                 onChange= {(e) => setBody(e.target.value)}
                 ></textarea>
                 <label> Blog Author : </label>
-                <select 
-                   value={ author }
-                   onChange= {(e) => setAuthor(e.target.value)}
-                >
-                    <option value="mario">mario</option>
-                    <option value="yoshi">yoshi</option>
-                </select>
+               <input type="text" value={ author } onChange= {(e) => setAuthor(e.target.value)} />
                 { ! isPending && <button>Add Blog</button>}
                 {  isPending && <button> Adding blog...</button>}
             </form>
